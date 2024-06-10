@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "celular7",
+      "price": "50",
+      "image": " https://images.fravega.com/f300/6826ed07df24afd3333b70c008e0f7ba.jpg.webp",
+      "id": 7
+    },
+    {
+      "name": "celular9",
+      "price": "70",
+      "image": "https://images.fravega.com/f300/6ca55bf5ce6c38b12a65159c8b64e0bd.jpg.webp",
+      "id": 9
+    },
+    {
+      "name": "celular2",
+      "price": "135",
+      "image": "https://images.fravega.com/f300/4293e2d404443565830952ff1e459a97.jpg.webp",
+      "id": 10
+    },
+    {
+      "name": "celular1",
+      "price": "140",
+      "image": "https://images.fravega.com/f300/b6b81b200e7c291d880a8b557533b730.jpg.webp",
+      "id": 11
+    }
+  ]
+}

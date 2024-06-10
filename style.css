@@ -1,0 +1,270 @@
+@import url("reset\ .css");
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(to bottom, #00CED1 ,#00FF00  );
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #0d001f;
+     color: #ffffff;
+}
+
+.menu-header{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.menu-icono {
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+    transition: transform 0.5s;
+    
+}
+.menu-icono:hover{
+    transform: rotateX(360deg);
+   
+
+}
+
+.menu-titulo{
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+    margin:0;
+}
+
+
+
+
+ .subtitulo  {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.misProductos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #00CED1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto 20px auto;  
+}
+
+.imagen-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: #230053;
+}
+
+.imagen-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.informacion {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.car-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+.value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.value p {
+    font-size: 18px;
+     font-weight: bold;
+    color: white;
+}
+
+.borrar {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.form-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:40px;
+width: Fixed (472px)px;
+height: Hug (517px)px;
+padding: 30px 0px 0px 0px;
+}
+
+.registrar{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color:black;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.dato{
+padding: 15px;
+border-radius: 40px;
+border: 3px solid #0e0020;
+gap: 0px;
+outline: none;
+width: 300px;
+height: 30px;
+}
+
+::placeholder {
+    color: #016ea0;
+    opacity: 3;
+    font-size: 16px;
+}
+
+.button-submit{
+color:#0f0000;
+background:#9747FF ;
+font-size: 16px;
+}
+
+.button-submit:hover{
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button-submit,.button-clear{
+
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 155px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.button-clear{
+    color:#110225;
+    font-size: 16px;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .form-container{
+     width: 50%;
+     margin: 40px auto ;
+
+    }
+.registroProductos{
+    /*display: flex;*/
+    flex-direction: column;
+    
+}
+    
+   .registrar{
+
+display: flex;
+
+ justify-content: center;
+    
+   }
+
+             
+            
+  .dato {
+   width: 50%; /* Ajusta el ancho de los campos de entrada */
+            
+  }
+
+   .subtitulo {
+    display:inline-block;
+    margin-left: 150px;
+      font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 50px;
+      
+        
+    }
+
+      
+   .listado-produc {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 50%; 
+    justify-content:center; 
+    margin-left: 50px;
+    
+   }
+
+   .card {
+   width: calc(35% - 5px); 
+    
+}
+
+.car-titulo {
+    font-size: 16px;
+}
+
+.value p {
+    font-size: 16px;
+}
+
+
+.imagen-container {
+    width: 100%;
+   
+}
+
+
+
+
+} 
+
+
